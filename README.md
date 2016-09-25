@@ -42,10 +42,10 @@ with the data:
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
  <Patient>
-	<name>Bharath</name>
+	<name>Bob</name>
  </Patient>
 
-adds a patient whose name is Bharath 
+adds a patient whose name is Bob 
 
 
 A HTTP PUT request to URL http://localhost:8080/restws/services/patientservice/patients
@@ -53,7 +53,7 @@ with the data:
 
 <Patient>
    <id>124</id>
-   <name>Bharath T</name>
+   <name>Bob T</name>
 </Patient>
 
 updates the patient instance whose id is 124
